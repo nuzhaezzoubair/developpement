@@ -1,1 +1,67 @@
+.section-1 h2, .section-2 h2, .section-3 h2 {
+    position: absolute;
+    top: 10px;    /* Ajustez la position verticale au besoin */
+    right: 10px;  /* Ajustez la position horizontale au besoin */
+    background-color: #your-color; /* Couleur de fond des titres */
+    padding: 5px; /* Espacement à l'intérieur du titre */
+}
+/* Styles pour la vue de bureau (Desktop) */
+.section-1, .section-2, .section-3 {
+    width: 33.33%; /* Chaque section prend 33.33% de l'écran */
+    float: left;   /* Alignement horizontal */
+}
+/* Styles pour les sections */
+.section-1, .section-2, .section-3 {
+    margin: 10px; /* Espacement entre les sections */
+    padding: 20px; /* Espacement à l'intérieur des sections */
+}
+/* Couleurs de fond des sections */
+.section-1 {
+    background-color: #EFEFEF; /* Couleur de fond de la section 1 */
+}
+.section-2 {
+    background-color: #D8D8D8; /* Couleur de fond de la section 2 */
+}
+.section-3 {
+    background-color: #C0C0C0; /* Couleur de fond de la section 3 */
+}
+
+/* Couleurs de fond des titres de section */
+.section-1 h2 {
+    background-color: #your-color; /* Couleur de fond du titre de la section 1 */
+}
+.section-2 h2 {
+    background-color: #your-color; /* Couleur de fond du titre de la section 2 */
+}
+.section-3 h2 {
+    background-color: #your-color; /* Couleur de fond du titre de la section 3 */
+}
+/* Bordures autour des sections */
+.section-1, .section-2, .section-3 {
+    border: 1px solid #000; /* Bordure noire autour des sections */
+}
+
+/* Bordures autour des titres de section */
+.section-1 h2, .section-2 h2, .section-3 h2 {
+    border: 1px solid #000; /* Bordure noire autour des titres de section */
+}
+
+/* Media Query pour la vue tablette */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .section-1, .section-2 {
+        width: 50%; /* Les deux premières sections prennent 50% de l'écran */
+    }
+    .section-3 {
+        width: 100%; /* La troisième section prend 100% de l'écran */
+        clear: both; /* Assurez-vous qu'elle occupe toute la ligne suivante */
+    }
+}
+
+/* Media Query pour la vue mobile */
+@media screen and (max-width: 767px) {
+    .section-1, .section-2, .section-3 {
+        width: 100%; /* Chaque section prend 100% de la ligne */
+        float: none;  /* Annule l'alignement horizontal */
+    }
+}
 
