@@ -28,13 +28,13 @@
 
 /* Couleurs de fond des titres de section */
 .section-1 h2 {
-    background-color: #your-color; /* Couleur de fond du titre de la section 1 */
+    background-color: ##FF0000; /* Couleur de fond du titre de la section 1 */
 }
 .section-2 h2 {
-    background-color: #your-color; /* Couleur de fond du titre de la section 2 */
+    background-color: #00FF00; /* Couleur de fond du titre de la section 2 */
 }
 .section-3 h2 {
-    background-color: #your-color; /* Couleur de fond du titre de la section 3 */
+    background-color: #0000FF; /* Couleur de fond du titre de la section 3 */
 }
 /* Bordures autour des sections */
 .section-1, .section-2, .section-3 {
